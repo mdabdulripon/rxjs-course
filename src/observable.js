@@ -12,6 +12,7 @@ const myObservable = new Observable( (subscriber) => {
 
 add.li(`From line 11`);
 
+// ! Create Promise
 const myPromise = new Promise( (resolve, reject) => {
     resolve(`You just create an Promise(.-.)`);
     reject(`there are some error in the promise!`);
