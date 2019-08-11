@@ -1,20 +1,35 @@
 import { add } from './helpers';
 import { Observable } from 'rxjs'
 
-const obj = {
-    next: add.li,
-    error: add.li,
-    complete: function() {
-        add.li(`there are no more values$`)
-    }
-}
+add.li(`From line 4`);
 
 // ! Create Observable 
-const myObservable$ = new Observable( x => {
-    x.next(`Hello From the Observable `);
-    x.next(`Here is another one`);
-    x,complete();
-    x.error(`Here is the error`);
-}) 
+const myObservable = new Observable( (subscriber) => {
+    subscriber.next(`You just create an Observable(.-.)`);
+    subscriber.next(`Promise can resolve or emit the first value values`);
+    subscriber.next(`Observables allow you to resolve or emit multiple values`);
+})
 
-myObservable$.subscribe(obj);
+add.li(`From line 11`);
+
+// ! Create Promise
+const myPromise = new Promise( (resolve, reject) => {
+    resolve(`You just create an Promise(.-.)`);
+    reject(`there are some error in the promise!`);
+});
+
+myPromise
+    .then( res => {
+        add.li(res);
+    }).catch( err => {
+        add.li(err);
+    })
+
+const sub = myObservable
+    .subscribe(res => {
+        add.li(res);
+    });
+
+sub.unsubscribe()
+
+add.li(`From line 30`);
