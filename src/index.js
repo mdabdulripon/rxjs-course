@@ -1,4 +1,4 @@
-import './first-last-start-with'
+import './skip'
 
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('title').innerHTML = "";
