@@ -1,4 +1,4 @@
-import './map-filter'
+import './pluck'
 
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('title').innerHTML = "";
