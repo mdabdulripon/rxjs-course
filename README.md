@@ -79,8 +79,8 @@
 * [skipLast](https://github.com/mdabdulripon/rxjs-course/blob/skip/src/skip.js)
 * skipUntil
 * skipWhile
-* take
-* takeLast
+* [take](https://github.com/mdabdulripon/rxjs-course/blob/take/src/take.js)
+* [takeLast](https://github.com/mdabdulripon/rxjs-course/blob/take/src/take.js)
 * takeUntil
 * takeWhile
 * throttle
