@@ -51,27 +51,14 @@ export class Clock {
 
 		svg.setAttribute("width", +clock.width);
 		svg.setAttribute("height", +clock.height);
-		svg.style =
-			"background-color:#eee;margin:50px;border-radius:50%;box-shadow: 1px 2px 3px #bbb";
+		svg.style =	"background-color:#eee;margin:50px;border-radius:50%;box-shadow: 1px 2px 3px #bbb";
 		svg.id = "display-svg";
 
 		const bg = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-		const secondsLine = document.createElementNS(
-			"http://www.w3.org/2000/svg",
-			"line"
-		);
-		const minutesLine = document.createElementNS(
-			"http://www.w3.org/2000/svg",
-			"line"
-		);
-		const hoursLine = document.createElementNS(
-			"http://www.w3.org/2000/svg",
-			"line"
-		);
-		const pin = document.createElementNS(
-			"http://www.w3.org/2000/svg",
-			"circle"
-		);
+		const secondsLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
+		const minutesLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
+		const hoursLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
+		const pin = document.createElementNS("http://www.w3.org/2000/svg", "circle");
 		bg.setAttribute("r", clock.radius);
 		bg.setAttribute("cx", clock.width / 2);
 		bg.setAttribute("cy", clock.height / 2);
