@@ -1,5 +1,9 @@
-import './take'
+import './debounce'
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('title').innerHTML = "";
+    setTimeout( () => {
+        document.getElementById('title').innerHTML = "RxJs - Debounce & DebounceTime";
+    }, 5000)
 });
+
+
