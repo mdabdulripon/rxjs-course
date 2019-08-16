@@ -1,8 +1,8 @@
-import './clock'
+import './scan'
 
 document.addEventListener('DOMContentLoaded', function() {
     setTimeout( () => {
-        document.getElementById('title').innerHTML = "RxJs Clock";
+        document.getElementById('title').innerHTML = "RxJs scan";
     }, 5000)
 });
 
