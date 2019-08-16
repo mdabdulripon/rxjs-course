@@ -1,8 +1,8 @@
-import './scan'
+import './reduce'
 
 document.addEventListener('DOMContentLoaded', function() {
     setTimeout( () => {
-        document.getElementById('title').innerHTML = "RxJs scan";
+        document.getElementById('title').innerHTML = "RxJs reduce";
     }, 5000)
 });
 
