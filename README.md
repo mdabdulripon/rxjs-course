@@ -50,7 +50,7 @@
 * pairwise
 * partition
 * [pluck](https://github.com/mdabdulripon/rxjs-course/blob/pluck/src/pluck.js)
-* scan
+* [scan](https://github.com/mdabdulripon/rxjs-course/blob/scan/src/scan.js)
 * switchMap
 * switchMapTo
 * window
@@ -61,8 +61,8 @@
 ### Filtering Operators
 * audit
 * auditTime
-* debounce
-* debounceTime
+* [debounce](https://github.com/mdabdulripon/rxjs-course/blob/debounce-%26-debounceTime/src/debounce.js)
+* [debounceTime](https://github.com/mdabdulripon/rxjs-course/blob/debounce-%26-debounceTime/src/debounce.js)
 * distinct
 * distinctKey
 * distinctUntilChanged
@@ -126,4 +126,4 @@
 * count
 * max
 * min
-* reduce
+* [reduce](https://github.com/mdabdulripon/rxjs-course/blob/reduce/src/reduce.js)
