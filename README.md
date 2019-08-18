@@ -24,10 +24,10 @@
 * timer
 * iif
 ### Join Creation Operators
-* combineLatest
-* concat
+* [combineLatest](https://github.com/mdabdulripon/rxjs-course/blob/combineLatest/src/combineLatest.js)
+* [concat](https://github.com/mdabdulripon/rxjs-course/blob/concat/src/concat.js)
 * forkJoin
-* merge
+* [merge](https://github.com/mdabdulripon/rxjs-course/blob/merge/src/merge.js)
 * race
 * zip
 ### Transformation Operators

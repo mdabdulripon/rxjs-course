@@ -1,8 +1,8 @@
-import './combineLatest'
+import './concatAll'
 
 document.addEventListener('DOMContentLoaded', function() {
     setTimeout( () => {
-        document.getElementById('title').innerHTML = "RxJs combineLatest";
+        document.getElementById('title').innerHTML = "RxJs concatAll";
     }, 5000)
 });
 
