@@ -51,7 +51,7 @@
 * partition
 * [pluck](https://github.com/mdabdulripon/rxjs-course/blob/pluck/src/pluck.js)
 * [scan](https://github.com/mdabdulripon/rxjs-course/blob/scan/src/scan.js)
-* switchMap
+* [switchMap](https://github.com/mdabdulripon/rxjs-course/blob/master/src/switchMap.js)
 * switchMapTo
 * window
 * windowCount
